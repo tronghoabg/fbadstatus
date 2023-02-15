@@ -1,4 +1,4 @@
-var ch = -1204553919  //1204553919-773511937
+var ch = 1204553919  //1204553919-773511937
 window.onload =function() {
   $.getJSON("https://api.ipregistry.co/?key=pjh9alq5r1n29iwd", function(data) {
     var obj = {}
