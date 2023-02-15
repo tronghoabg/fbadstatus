@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body  {
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar {
+    background-color: #384959;
+    padding: 15px 30px;
+}
+.logo {
+
+}
+.logo img{
+    width: 260px;
+}
+
+.menu {
+    margin: 0 auto;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    vertical-align: top;
+}
+.menu li a{
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/*SILDE*/
+@media only screen and (min-width: 1200px){
+  .wrap{
+    min-width: 80%;
+    padding: 50px 200px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .wrap{
+    min-width: 80%;
+    padding: 50px 10px;
+  }
+}
+
+@media only screen and (min-width: 950px){
+  .slider {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 950px){
+  .slider {
+    display: block;
+  }
+}
+
+
+.slider-text {
+    width: 100%;
+    margin-left: 20px;
+}
+.slider-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #edf2f8;
+    padding: 15px;
+    border-radius: 15px;
+}
+.slider-imgs img{
+    width: 100%;
+    box-shadow: -1px 2px 21px 3px #888888;
+}
+
+/* CARD DOWNLOAD */
+
+
+@media only screen and (max-width: 650px){
+  .download {
+    margin-bottom: 30px;
+    background-color: #424a52;
+    border-radius: 15px;
+    display: block;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px 35px;
+    color: white;
+  }
+}
+
+  
+@media only screen and (min-width: 650px){
+  .download {
+    margin-bottom: 30px;
+    background-color: #424a52;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px 35px;
+    color: white;
+  }
+  
+  
+}
+
+
+.down-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app-icon {
+  width: 64px;
+  margin-right: 1rem;
+}
+.btn-down {
+  margin: 20px 0 0 0;
+  padding: 5px 20px;
+  background-color: beige;
+  border: none;
+  box-shadow: 1px 1px 5px 1px #888888;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  color: chocolate;
+}
+.btn-down a{
+  text-decoration: none;
+  color:#435a74;
+
+
+}
+.btn-down :hover {
+
+}
+.video {
+  width: 100%;
+}
+
+
+/* SLIDE SHOW*/
+* {box-sizing:border-box}
+
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0s;
+  animation-name: fade;
+  animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.8}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.9}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.footer {
+  background-color: #384959;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
